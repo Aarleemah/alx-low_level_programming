@@ -1,12 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
-* main- Entry point
-*       Prints a random number and states whether
-*        it is positive, negative, or zero.
-* Return: Always 0.
+* main - entry point
+*
+* Description: Print the lowercase alphabet
+* Return: Always 0
 */
 int main(void)
 {
+int r;
+
+for (r=0; r < 26; ++r)
+putchar('a' + c);
+
+putchar('\n');
+
+return (0);
+}
