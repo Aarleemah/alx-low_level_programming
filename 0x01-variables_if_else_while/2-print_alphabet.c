@@ -10,9 +10,9 @@ int main(void)
 int r;
 
 for (r=0; r < 26; ++r)
-putchar('a' + c);
+putchar('a' + r);
 
-putchar('\n');
+putchar('\n'):
 
 return (0);
 }
