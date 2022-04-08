@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* main  Prints a random number and states whether
+* main- Entry point
+*       Prints a random number and states whether
 *        it is positive, negative, or zero.
-*
 * Return: Always 0.
 */
 int main(void)
