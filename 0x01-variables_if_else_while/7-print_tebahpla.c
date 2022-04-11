@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-char Revalpha[26] = "zyxwvutsrqponmlkjhgfedcba";
+char Revalpha[26] = "zyxwvutsrqponmlkjihgfedcba";
 int i;
 
 for (i = 0; i < 26; i++)
