@@ -15,10 +15,7 @@ int j, k;
 j=48;
 k = 48;
 
-while (i < 58)
-{
-k = j + 1;
-while (k < 58)
+while (j < 58)
 {
 putchar(j);
 putchar(k);
