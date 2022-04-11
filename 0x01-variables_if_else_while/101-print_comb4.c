@@ -2,7 +2,7 @@
 
 /**
 * main - print triple combos
-* 
+*
 * Description: print triple digit combos
 *
 * Return: Always 0
@@ -23,11 +23,6 @@ while (k < 58)
 {
 l = k + 1;
 while (l < 58)
-{
-putchar(j);
-putchar(k);
-putchar(l);
-if (j < 55 || k < 56 || l < 57)
 {
 putchar(44);
 putchar(32);
