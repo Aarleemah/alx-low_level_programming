@@ -3,8 +3,9 @@
 /**
 * main - prints the first 100 fibonacci numbers,
 * starting with 1 and 2
-*followed by anew line
-* return: always 0
+*followed by a new line
+* Return: always 0
+*
 */
 int main(void)
 {
