@@ -21,7 +21,7 @@ for (j = 0; j < size; j++)
 if ((size - i - 1) > j)
 _putchar(' ');
 else
-_putchar('#')
+_putchar('#');
 }
 _putchar('\n');
 }
