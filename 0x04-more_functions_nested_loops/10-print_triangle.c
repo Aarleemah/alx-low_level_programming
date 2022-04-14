@@ -1,28 +1,34 @@
 #include "main.h"
 
 /**
-* main - checks the code
 * print_triangle - prints triangle
 * @size: limit
 * Return: void
 *
-*
 */
+
 void print_triangle(int size)
+{
+if (size <= 0)
+{
+_putchar('\n');
+}
+else
 {
 int i, j;
 
-if (size > 0)
+for (i = 1; i <= size; i++)
 {
-for (i = 0; i < size; i++)
+for (j = 1; j < size; j++)
 {
-for (j = 0; j < size; j++)
-{
-if ((size - i - 1) > j)
 _putchar(' ');
-else
+}
+for (j = 1; j <= i; j++)
+{
 _putchar('#');
 }
-_putchar('\n');
+
+_putchar('\n')
+}
 }
 }
