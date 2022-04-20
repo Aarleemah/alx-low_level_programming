@@ -9,7 +9,8 @@
 int main(void)
 {
 int sum;
-vhar c;
+char c;
+
 
 srand(time(NULL));
 while (sum <= 2645)
