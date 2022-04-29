@@ -1,12 +1,6 @@
 #include "main.h"
 
 /**
-* is_palindrome - detects if a string is a palindrome or not.
-* @s: string
-root@e0a4fdf416a2:/alx-low_level_programming/0x08-recursion# cat > 100-is_palindrome.c
-#include "main.h"
-
-/**
 * _strlen_recursion - returns the length of a string
 * @s: string
 * Return: the length of the string.
@@ -16,7 +10,7 @@ int _strlen_recursion(char *s)
 if (*s == '\0')
 return (0);
 else
-return(1 + _strlen_recursion(s + 1)):
+return(1 + _strlen_recursion(s + 1));
 }
 
 /**
