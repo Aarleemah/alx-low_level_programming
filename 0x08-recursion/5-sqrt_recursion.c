@@ -6,7 +6,7 @@
 * @c: the iterator.
 * Return: the square root of the number or -1
 */
-int _power_operation(int n, int c)
+int power_operation(int n, int c)
 {
 if (c % (n / c) == 0)
 {
